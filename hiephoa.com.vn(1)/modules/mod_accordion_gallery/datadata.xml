@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?><data>
+	
+	<settings>
+		<title_size>10</title_size>
+		<title_color>FFFFFF</title_color>
+		<description_size>10</description_size>
+		<description_color>FFFFFF</description_color>
+		<auto_play>true</auto_play>
+		<change_time>10</change_time>
+		<accord_location>right</accord_location>
+		<tab>
+			<width>50</width>
+			<shadow>true</shadow>
+			<open_time>0.5</open_time>
+			<open_mode>click</open_mode>
+			<font_size>20</font_size>
+			<text_color>E0DEDF</text_color>
+			<background_color>000000</background_color>
+			<background_color_over>ff5a01</background_color_over>
+		</tab>
+
+		<display_template>
+			<type>3</type>
+			<change_time>.5</change_time>			
+			<template_third>
+				<description_height>0</description_height>
+				<description_background_color>000000</description_background_color>
+				<description_background_alpha>0.5</description_background_alpha>
+			</template_third>
+
+			<template_second>
+				<link_text>Read More</link_text>
+				<description_width>250</description_width>
+				<description_background_color>000000</description_background_color>				
+			</template_second>
+			
+			<template_first>
+				<link_text>Read More</link_text>
+				<picture_height>234</picture_height>
+			</template_first>
+			
+			<controls>
+				<show>true</show>
+				<button_width>11</button_width>
+				<button_height>11</button_height>
+				<button_color>ffffff</button_color>
+				<button_color_over>ff5a01</button_color_over>
+			</controls>
+		</display_template>
+
+		<price>
+			<x>100</x>
+			<y>100</y>
+			<width>120</width>
+			<height>120</height>
+			<img>http://localhost/hiephoa.com.vn/components/com_accordiongallery/price_images/flower_blue.png</img>
+			<symbol>$</symbol>
+			<label_size>20</label_size>
+			<label_color>FFFFFF</label_color>
+		</price>
+
+	</settings>
+	<snow_effect 	
+		type="0"
+		
+		minimumSize="0.7"
+		maximumSize="1.1"
+		
+		minimumSpeedY="2"
+		maximumSpeedY="4"
+		
+		minimumSpeedX="0"
+		maximumSpeedX="0"
+		
+		numOfParticles="120"
+		
+		minimumRotation="0"
+		maximumRotation="0"
+		
+		minimumAlpha="1"
+		maximumAlpha="1"
+		
+		minimumBlur="0"
+		maximumBlur="6"
+	/>
+	 <tabs>  <tab> <name><![CDATA[Xe cho con]]></name> <element> <link target="_self"></link> <picture  scale="true">http://localhost/hiephoa.com.vn/images/accordiongallery/gallery/xechocon.jpg</picture> <title>xechocon</title> <description></description><price><regular></regular><updated></updated>	</price> </element>	</tab> <tab> <name><![CDATA[O to canh sat]]></name> <element> <link target="_self"></link> <picture  scale="true">http://localhost/hiephoa.com.vn/images/accordiongallery/gallery/xechopham.jpg</picture> <title>xechopham</title> <description></description><price><regular></regular><updated></updated>	</price> </element> <element> <link target="_self"></link> <picture  scale="true">http://localhost/hiephoa.com.vn/images/accordiongallery/gallery/xetiepnuoc.jpg</picture> <title>xetiepnuoc</title> <description></description><price><regular></regular><updated></updated>	</price> </element>	</tab> <tab> <name><![CDATA[Xe gom rac day tay]]></name> <element> <link target="_self"></link> <picture  scale="true">http://localhost/hiephoa.com.vn/images/accordiongallery/gallery/Xegomrac.jpg</picture> <title>Xegomrac</title> <description></description><price><regular></regular><updated></updated>	</price> </element>	</tab> <tab> <name><![CDATA[O to Moi truong]]></name> <element> <link target="_self"></link> <picture  scale="true">http://localhost/hiephoa.com.vn/images/accordiongallery/gallery/xerac7m3.jpg</picture> <title>xerac7m3</title> <description></description><price><regular></regular><updated></updated>	</price> </element> <element> <link target="_self"></link> <picture  scale="true">http://localhost/hiephoa.com.vn/images/accordiongallery/gallery/xerac9m3.jpg</picture> <title>xerac9m3</title> <description></description><price><regular></regular><updated></updated>	</price> </element> <element> <link target="_self"></link> <picture  scale="true">http://localhost/hiephoa.com.vn/images/accordiongallery/gallery/xerac14m3.jpg</picture> <title>xerac14m3</title> <description></description><price><regular></regular><updated></updated>	</price> </element> <element> <link target="_self"></link> <picture  scale="true">http://localhost/hiephoa.com.vn/images/accordiongallery/gallery/xetaithung.jpg</picture> <title>xetaithung</title> <description></description><price><regular></regular><updated></updated>	</price> </element>	</tab> <tab> <name><![CDATA[Gioi Thieu]]></name> <element> <link target="_self"></link> <picture  scale="true">http://localhost/hiephoa.com.vn/images/accordiongallery/gallery/nhamay.jpg</picture> <title>nhamay</title> <description></description><price><regular></regular><updated></updated>	</price> </element>	</tab> </tabs></data>

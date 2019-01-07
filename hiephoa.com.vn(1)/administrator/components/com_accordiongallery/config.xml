@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="params" label="Gallery parameters" description="Gallery parameters" >
+		<field name="cat_path" type="text" default="images/accordiongallery/galleries" label="Categories Images Folder" description="The path where Categories Images will be stored" size="80" />
+		<field name="pic_path" type="text" default="images/accordiongallery/gallery" label="Pictures Images Folder" description="The path where Pictures Images will be stored" size="80" />
+		<field name="thumb_x" type="text" default="70" label="Generated Thumb Widht" description="Auto Generated Thumb Widht" size="8" />
+		<field name="thumb_y" type="text" default="50" label="Generated Thumb Height" description="Auto Generated Thumb Height" size="8" />
+		<field name="secur_w" type="text" default="telx3eis7d" label="Component Security Word" description="Please type random unique word containing symbols: a-zA-Z0-9" size="8" />
+		<field type="spacer" default="Front End Parameters" />
+		<field name="mainmarg" type="text" default="0" label="Component margin" description="Component container div margin style. Example: 20px 5px 10px 2px" size="8" />
+		<field name="catperr" type="text" default="4" label="Categories per row" description="Number of categories thumbs showed per row" size="8" />
+		<field name="cnameclr" type="text" default="#A63431" label="Categories title color" description="Categories title color. For example #A63431" size="8" />
+		<field name="cthumb_w" type="text" default="100" label="Categories Thumbs Widht" description="Categories Thumbs Widht in Front End" size="8" />
+		<field name="cthumb_h" type="text" default="75" label="Categories Thumbs Height" description="Categories Thumbs Height in Front End" size="8" />
+		<field name="cscroll_w" type="text" default="600" label="Categories Scroller Widht" description="Categories Scroller Widht" size="8" />
+		<field name="cscroll_h" type="text" default="110" label="Categories Scroller Height" description="Categories Scroller Height" size="8" />
+		<field name="scrolbgc" type="text" default="eeeeee" label="Scroller Background" description="Scroller Background Color. For example eeeeee" size="8" />
+		<field name="scrolbord" type="text" default="cccccc" label="Scroller Border" description="Scroller Border Color. For example cccccc" size="8" />
+		<field name="scrolimgbg" type="text" default="ffffff" label="Scroller Images Background" description="Scroller Images Background Color. For example ffffff" size="8" />
+		<field name="scrolimgbd" type="text" default="cccccc" label="Scroller Images Border" description="Scroller Images Border Color. For example cccccc" size="8" />
+		<field name="cat_ttimg" type="list" default="1" label="Category Thumbs Tooltip Box" description="Category Thumbs Tooltip Box" > 
+			<option value="9">No Tooltips</option>
+			<option value="1">Big black with arrow</option>
+			<option value="2">Big white with arrow</option>
+			<option value="3">Big black no arrow</option>
+			<option value="4">Big white no arrow</option>
+			<option value="5">Small black with arrow</option>
+			<option value="6">Small white with arrow</option>
+			<option value="7">Small black no arrow</option>
+			<option value="8">Small white no arrow</option>
+		</field>
+		<field name="cat_tbcolor" type="text" default="ffffff" label="Category Tooltip Font Color" description="Category Tooltip Font Color. For example ffffff" size="8" />
+		
+		<field name="picperr" type="text" default="4" label="Pictures per row" description="Pictures per row showed" size="8" />
+		<field name="picrperp" type="text" default="10" label="Number of rows" description="Number of rows per page" size="8" />
+		<field name="picdistr" type="text" default="10" label="Distance between rows" description="Distance between rows (px)" size="8" />
+		<field name="thumb_w" type="text" default="70" label="Pictures Thumbs Widht in Front End" description="Max Pictures Thumbs Widht in Front End" size="8" />
+		<field name="thumb_h" type="text" default="75" label="Thumbs Height" description="Pictures Thumbs Height" size="8" />
+		<field name="pic_ttimg" type="list" default="1" label="Images Tooltip Box" description="Images Tooltip Box" >
+			<option value="9">No Tooltips</option>
+			<option value="1">Big black with arrow</option>
+			<option value="2">Big white with arrow</option>
+			<option value="3">Big black no arrow</option>
+			<option value="4">Big white no arrow</option>
+			<option value="5">Small black with arrow</option>
+			<option value="6">Small white with arrow</option>
+			<option value="7">Small black no arrow</option>
+			<option value="8">Small white no arrow</option>
+		</field>
+		<field name="img_tbcolor" type="text" default="ffffff" label="Images Tooltip Font Color" description="Images Tooltip Font Color. For example ffffff" size="8" />
+		<field name="picbgc" type="text" default="eeeeee" label="Pictures Container Background" description="Pictures Container Background Color. For example eeeeee" size="8" />
+		<field name="picbord" type="text" default="cccccc" label="Pictures Container Border" description="Pictures Container Border Color. For example cccccc" size="8" />
+		<field name="picimgbg" type="text" default="ffffff" label="Pictures Background" description="Pictures Background Color. For example ffffff" size="8" />
+		<field name="picimgbd" type="text" default="cccccc" label="Pictures Border" description="Pictures Border Color. For example cccccc" size="8" />
+		
+		<field name="showsztype" type="list" default="1" label="Pictures Show Size Type" description="The manner big pictures will be shown." > 
+			<option value="1">scale image</option>
+			<option value="2">make draggable</option>
+			<option value="3">crop image</option>
+		</field>
+		<field name="nameclr" type="text" default="#333333" label="Name color" description="Name color. For example #333333" size="8" />
+		<field name="usemd" type="list" default="2" label="Set meta data" description="Set component meta data" > 
+			<option value="1">yes</option>
+			<option value="2">no</option>
+		</field>
+		<field name="mdatad" type="textarea" default="" label="Meta data description" description="Meta data description" cols="50" rows="4" />
+		<field name="mdatak" type="textarea" default="" label="Meta data keywords" description="Meta data keywords" cols="50" rows="4" />
+		<field name="addjq" type="list" default="1" label="Add jQuery" description="Add jQuery library to the page javascript tags. Set to yes if page does not load jQuery library." > 
+			<option value="1">yes</option>
+			<option value="2">no</option>
+		</field>
+		<field name="addjqt" type="list" default="1" label="Add jQuery tools" description="Add jQuery tools library to the page javascript tags. Set to yes if page does not load jQuery tools library." > 
+			<option value="1">yes</option>
+			<option value="2">no</option>
+		</field>
+	</fieldset>
+</config>

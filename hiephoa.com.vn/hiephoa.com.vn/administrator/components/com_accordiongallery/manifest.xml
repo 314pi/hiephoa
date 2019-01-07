@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <extension type="component" version="1.6.0" method="upgrade">
+ <name>Accordion Gallery</name>
+ <creationDate>2011-12-21</creationDate>
+ <author>XML/SWF</author>
+ <authorEmail>xmlswf@gmail.com</authorEmail>
+ <authorUrl>http://xmlswf.com</authorUrl>
+ <copyright>All rights reserved by XML/SWF 2011</copyright> 
+ <license>GPL 2.0</license> 
+ <version>1.1</version>
+ <description>Thank you for installing Accordion Gallery by xml/swf.</description>
+
+
+	<installfile>install.php</installfile>
+	<uninstallfile>uninstall.php</uninstallfile>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.sql</file>
+		</sql>
+	</uninstall>
+	<files folder="components/com_accordiongallery">
+		  <folder>controllers</folder>
+  		  <folder>js</folder>
+		  <folder>models</folder>
+		  <folder>sb</folder>
+		  <folder>views</folder>
+		  <folder>price_images</folder>
+		  <filename>accordiongallery.php</filename>
+		  <filename>controller.php</filename>
+		  <filename>index.html</filename>
+		  <filename>noimage.jpg</filename>
+		  <filename>noimage_thumb.jpg</filename>
+		  <filename>publish_x.png</filename>
+		  <filename>tick.png</filename>
+	</files>
+
+		
+	<administration>
+	<menu view="item">Accordion Gallery Component</menu>
+		<submenu>
+			<menu view="item" link="option=com_accordiongallery">Pictures</menu>
+			<menu view="categories" link="option=com_accordiongallery&amp;controller=categories">Categories</menu>
+			<menu view="multiup" link="option=com_accordiongallery&amp;controller=multiup">Multi Upload</menu>
+		</submenu>
+
+		<files folder="administrator/components/com_accordiongallery">
+			<folder>controllers</folder>
+			<folder>models</folder>
+			<folder>swfupload</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<filename>accordiongallery.php</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+		</files>
+	
+	</administration>
+
+	<modules>
+		<module module="mod_accordion_gallery" client="site" />
+	</modules>
+</extension>
